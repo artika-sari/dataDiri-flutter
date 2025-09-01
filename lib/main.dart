@@ -11,11 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Profile',
+      title: 'Profile',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
+      debugShowCheckedModeBanner: false,
       home: const HomePage(),
     );
   }
@@ -32,7 +33,7 @@ class HomePage extends StatelessWidget {
         height: double.infinity,
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("assets/images/langit.jpg"),
+            image: AssetImage("assets/images/ungu.jpg"),
             fit: BoxFit.cover,
           ),
         ),
@@ -41,7 +42,7 @@ class HomePage extends StatelessWidget {
             width: 350,
             padding: const EdgeInsets.all(20),
             decoration: BoxDecoration(
-              color: Colors.white.withOpacity(0.9),
+              color: const Color.fromARGB(255, 230, 215, 245).withOpacity(0.9),
               borderRadius: BorderRadius.circular(20),
               boxShadow: [
                 BoxShadow(
@@ -59,16 +60,16 @@ class HomePage extends StatelessWidget {
                   height: 120,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    border: Border.all(color: const Color.fromARGB(255, 138, 155, 249), width: 3),
+                    border: Border.all(color: const Color.fromARGB(255, 70, 28, 119), width: 3),
                     image: const DecorationImage(
-                      image: AssetImage("assets/images/spider.jpg"),
+                      image: AssetImage("assets/images/download.jpg"),
                       fit: BoxFit.cover,
                     ),
                   ),
                 ),
                 const SizedBox(height: 10),
                 const Text(
-                  "Keyla Maharani",
+                  "Artika Sari Noor Cahayani",
                   style: TextStyle(
                     fontSize: 26,
                     fontWeight: FontWeight.bold,
@@ -87,7 +88,7 @@ class HomePage extends StatelessWidget {
                 const SizedBox(height: 20),
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: const Color.fromARGB(255, 138, 155, 249),
+                    backgroundColor: const Color.fromARGB(255, 70, 28, 119),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
