@@ -50,8 +50,8 @@ class DetailProfile extends StatelessWidget {
                 buildProfileCard(
                   title: "History",
                   content:
-                      "I am someone who can work together in a team with high discipline and efficiency, "
-                      "and have sufficient experience as a team leader.",
+                      "I am a student at SMK Wikrama Bogor majoring in Software and Game Development (PPLG). I have experience working on various projects such as creating websites using HTML, CSS, JavaScript,"
+                      "and developing web applications with PHP and the Laravel framework. I am also active in the IT Club, which helps me improve teamwork, discipline, and leadership skills.",
                 ),
                 const SizedBox(height: 10),
                 buildProfileCard(
