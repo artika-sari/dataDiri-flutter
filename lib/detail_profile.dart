@@ -25,7 +25,7 @@ class DetailProfile extends StatelessWidget {
               children: [
                 const CircleAvatar(
                   radius: 50,
-                  backgroundImage: AssetImage("assets/images/download.jpg"),
+                  backgroundImage: AssetImage("assets/images/me.jpg"),
                 ),
                 const SizedBox(height: 5),
                 const Text(

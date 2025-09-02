@@ -62,7 +62,7 @@ class HomePage extends StatelessWidget {
                     shape: BoxShape.circle,
                     border: Border.all(color: const Color.fromARGB(255, 70, 28, 119), width: 3),
                     image: const DecorationImage(
-                      image: AssetImage("assets/images/download.jpg"),
+                      image: AssetImage("assets/images/me.jpg"),
                       fit: BoxFit.cover,
                     ),
                   ),
