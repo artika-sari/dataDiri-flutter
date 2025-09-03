@@ -57,9 +57,9 @@ class DetailProfile extends StatelessWidget {
                 buildProfileCard(
                   title: "Skill",
                   content:
-                      "- HTML\n"
-                      "- CSS\n"
-                      "- JavaScript",
+                      "- HTML, CSS, Javascript\n"
+                      "- Laravel\n"
+                      "- UI/UX Design with Figma",
                   color: const Color.fromARGB(255, 150, 110, 200),
                 ),
               ],
